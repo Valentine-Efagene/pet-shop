@@ -1,18 +1,19 @@
-import Button from "../common/buttons/Button";
+import { HTMLAttributes } from "react";
 import Menu from "../icons/Menu";
+import Button from "../common/buttons/Button";
 
-interface IProps {
-  className?: string;
-}
-
-export default function Mobile({ className }: IProps) {
+export default function Mobile({
+  className,
+  ...rest
+}: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
       className={`${className} flex items-center justify-between md:hidden z-10 px-[1rem] w-full`}
+      {...rest}
     >
-      <Button>
+      <a>
         <img src="/img/logo.svg" alt="" />
-      </Button>
+      </a>
       <Button>
         <Menu />
       </Button>

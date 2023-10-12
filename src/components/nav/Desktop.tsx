@@ -1,11 +1,13 @@
-interface IProps {
-  className?: string;
-}
+import { HTMLAttributes } from "react";
 
-export default function Desktop({ className }: IProps) {
+export default function Desktop({
+  className,
+  ...rest
+}: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
       className={`${className} hidden md:flex z-10 py-5 pl-[1rem] lg:pl-[4rem] w-full`}
+      {...rest}
     >
       <a>
         <img src="/img/logo.svg" alt="" />
