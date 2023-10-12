@@ -4,7 +4,7 @@ import Card from "../discovery/Card";
 
 export default function Discovery() {
   return (
-    <div className="flex flex-col-reverse md:flex-row gap-3 lg:gap-lg mt-6 p-sm md:p-md lg:p-lg">
+    <div className="flex flex-col-reverse md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
       <img
         className="aspect-480/600 rounded-[40px] md:w-[278px] lg:w-[480px]"
         src={discovery}

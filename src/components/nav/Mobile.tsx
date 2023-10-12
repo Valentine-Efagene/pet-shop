@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import Menu from "../icons/Menu";
+import Menu from "../common/icons/Menu";
 import Button from "../common/buttons/Button";
 
 export default function Mobile({

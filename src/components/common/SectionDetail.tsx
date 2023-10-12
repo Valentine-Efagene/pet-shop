@@ -6,7 +6,7 @@ export default function SectionDetail({
 }: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
-      className={`${className} flex flex-col justify-center md:p-sm lg:p-lgInner gap-2 lg:gap-lg md:rounded-[40px] md:border md:border-1 border-lightBorder`}
+      className={`${className} flex flex-col justify-center md:p-md lg:p-lgInner gap-sm md:rounded-[2.5rem] md:border md:border-1 border-lightBorder`}
       {...rest}
     ></div>
   );

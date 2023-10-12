@@ -3,7 +3,7 @@ import SectionDetail from "../common/SectionDetail";
 
 export default function Companion() {
   return (
-    <div className="flex flex-col md:flex-row gap-3 lg:gap-lg mt-6 p-sm md:p-md lg:p-lg">
+    <div className="flex flex-col md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
       <SectionDetail>
         <h2 className="font-bold text-24 md:text-36 lg:text-64">
           Find Your Perfect Pet Companion Today

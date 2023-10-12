@@ -1,8 +1,11 @@
+import colors from "tailwindcss/colors";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
+      ...colors,
       light: "#F3F3F3",
       dark: "#0D111A",
       background: "#e8e8e8",
@@ -23,12 +26,13 @@ export default {
       24: "1.5rem",
       28: "1.75rem",
       36: "2.25rem",
+      40: "2.5rem",
       48: "3rem",
       64: "4rem",
     },
     padding: {
       sm: "12px",
-      md: "24px",
+      md: "1rem",
       lg: "4rem",
       lgInner: "2rem",
     },
@@ -38,9 +42,22 @@ export default {
       lg: "4rem",
     },
     gap: {
-      lg: "2rem",
+      sm: "1rem",
+      md: "2rem",
+      lg: "4rem",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        jerk: {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(0.2rem)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        jerk: "jerk 1s ease-in-out",
+      },
+    },
   },
   plugins: [],
 };
