@@ -1,9 +1,10 @@
 import family from "../../assets/img/family.png";
+import SectionDetail from "../common/SectionDetail";
 
 export default function Family() {
   return (
-    <div className="flex flex-col md:flex-row gap-3 mt-6 p-sm md:p-md lg:p-lg">
-      <div className="flex flex-col justify-center md:p-sm gap-2 md:rounded-[40px] md:border md:border-1 border-lightBorder">
+    <div className="flex flex-col md:flex-row gap-3 lg:gap-lg mt-6 p-sm md:p-md lg:p-lg">
+      <SectionDetail>
         <h2 className="font-bold text-24 md:text-36 lg:text-64">
           Find Your Perfect Pet Companion Today
         </h2>
@@ -13,7 +14,7 @@ export default function Family() {
           or a furry friend to brighten your day, we have the perfect pet for
           you.{" "}
         </p>
-      </div>
+      </SectionDetail>
       <img
         className="aspect-480/600 rounded-[40px] md:w-[278px] lg:w-[480px]"
         src={family}

@@ -1,5 +1,3 @@
-import Button from "../buttons/Button";
-
 interface IProps {
   className?: string;
 }
@@ -7,11 +5,11 @@ interface IProps {
 export default function Desktop({ className }: IProps) {
   return (
     <div
-      className={`${className} hidden md:flex z-10 absolute py-5 pl-[1rem] lg:pl-[4rem] w-full`}
+      className={`${className} hidden md:flex z-10 py-5 pl-[1rem] lg:pl-[4rem] w-full`}
     >
-      <Button>
+      <a>
         <img src="/img/logo.svg" alt="" />
-      </Button>
+      </a>
       <div className="flex justify-center gap-3 grow gap-[20px] text-light items-center">
         <a href="">Shop Now</a>
         <a href="">About Us</a>

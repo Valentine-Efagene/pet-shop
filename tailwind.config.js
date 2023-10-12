@@ -30,11 +30,15 @@ export default {
       sm: "12px",
       md: "24px",
       lg: "4rem",
+      lgInner: "2rem",
     },
     margin: {
       sm: "12px",
       md: "24px",
       lg: "4rem",
+    },
+    gap: {
+      lg: "2rem",
     },
     extend: {},
   },

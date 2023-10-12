@@ -1,6 +1,6 @@
 import { HTMLAttributes } from "react";
 
-interface IProps extends HTMLAttributes<HTMLButtonElement> {
+interface IProps extends HTMLAttributes<HTMLDivElement> {
   title: string;
   content: string;
 }

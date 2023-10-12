@@ -1,4 +1,4 @@
-import Button from "../buttons/Button";
+import Button from "../common/buttons/Button";
 import ArrowDown from "../icons/ArrowDown";
 import Desktop from "../nav/Desktop";
 import Mobile from "../nav/Mobile";
@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col gap-4">
       <div className={`w-full h-fit relative bg-white`}>
-        <Desktop />
+        <Desktop className="absolute top-4" />
         <Mobile className="absolute top-4" />
         <div className="bg-background relative aspect-[412/326] md:aspect-[834/557] lg:aspect-[1440/1024] rounded-tl-[40px] rounded-tr-[40px] flex align-center w-full items-center bg-cover bg-no-repeat bg-[url('/img/hero-sm.png')] md:bg-[url('/img/hero-md.png')] lg:bg-[url('/img/hero.png')]">
           <div className="w-full relative top-8 md:static flex flex-col gap-2 md:gap-4 lg:gap-8 pl-[16px] md:pl-[32px] lg:pl-[64px]">
