@@ -1,0 +1,10 @@
+#root {
+  background: url("/img/hero.svg");
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  border: 8px solid #fff;
+  background: #e8e8e8;
+}
