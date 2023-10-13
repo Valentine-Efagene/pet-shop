@@ -11,23 +11,23 @@ export default function Footer() {
     <footer className="flex flex-col bg-dark py-md px-sm md:px-md lg:px-lg">
       <div className="flex justify-between items-center">
         <a href="/">
-          <Logo className="scale-50 md:scale-100" />
+          <Logo className="scale-100" />
         </a>
-        <div className="flex gap-[0.5rem] md:gap-sm lg:gap-md">
+        <div className="flex mr-[1rem] gap-[1.5rem]">
           <a href="">
-            <Pinterest className="md:scale-[2] lg:scale-[2.5]" />
+            <Pinterest className="scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Instagram className="md:scale-[2] lg:scale-[2.5]" />
+            <Instagram className="scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Facebook className="md:scale-[2] lg:scale-[2.5]" />
+            <Facebook className="scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Telegram className="md:scale-[2] lg:scale-[2.5]" />
+            <Telegram className="scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <X className="md:scale-[2] lg:scale-[2.5]" />
+            <X className="scale-[2] lg:scale-[2.5]" />
           </a>
         </div>
       </div>
