@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="flex flex-col bg-dark p-md">
       <div className="flex justify-between">
         <a href="/">
-          <Logo />
+          <Logo width={12} height={13} />
         </a>
         <div className="flex gap-[0.5rem]">
           <a href="">

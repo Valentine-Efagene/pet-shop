@@ -1,4 +1,4 @@
-import dog from "../../assets/img/companion.jpeg";
+import dog from "../../assets/img/companion.png";
 import SectionDetail from "../common/SectionDetail";
 
 export default function Companion() {

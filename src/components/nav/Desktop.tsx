@@ -1,4 +1,5 @@
 import { HTMLAttributes } from "react";
+import Logo from "../common/icons/Logo";
 
 export default function Desktop({
   className,
@@ -10,7 +11,7 @@ export default function Desktop({
       {...rest}
     >
       <a>
-        <img src="/img/logo.svg" alt="" />
+        <Logo />
       </a>
       <div className="flex justify-center relative right-20 gap-3 grow gap-[20px] text-light items-center">
         <a href="">Shop Now</a>

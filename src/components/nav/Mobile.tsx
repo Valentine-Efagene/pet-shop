@@ -1,6 +1,7 @@
 import { HTMLAttributes } from "react";
 import Menu from "../common/icons/Menu";
 import Button from "../common/buttons/Button";
+import Logo from "../common/icons/Logo";
 
 export default function Mobile({
   className,
@@ -12,7 +13,7 @@ export default function Mobile({
       {...rest}
     >
       <a>
-        <img src="/img/logo.svg" alt="" />
+        <Logo />
       </a>
       <Button>
         <Menu />
