@@ -5,7 +5,7 @@ import Mobile from "../nav/Mobile";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4">
       <div className="w-full h-fit relative bg-white">
         <Desktop className="absolute top-4" />
         <Mobile className="absolute top-4" />
@@ -30,9 +30,9 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-      <Button className="flex mx-sm md:hidden w-1/5 font-normal justify-start items-center bg-transparent text-blue-700">
+      <Button className="flex mx-sm pt-[1rem] md:hidden w-1/5 font-normal justify-start items-center bg-transparent text-dark">
         Discover
       </Button>
-    </div>
+    </section>
   );
 }

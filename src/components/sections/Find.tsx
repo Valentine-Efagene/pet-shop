@@ -4,7 +4,7 @@ import Shop from "../find/link-cards/Shop";
 
 export default function Find() {
   return (
-    <div className="flex flex-col gap-sm md:gap-md px-sm md:px-md lg:px-lg">
+    <section className="flex flex-col gap-sm md:gap-md px-sm md:px-md lg:px-lg">
       <div className="flex flex-col md:items-center gap-2 mx-[auto] w-fit text-center">
         <h2 className="font-bold text-20 md:text-36 lg:text-64">
           Find the Perfect Pet Today!
@@ -21,6 +21,6 @@ export default function Find() {
         <Shop />
         <Adopt />
       </div>
-    </div>
+    </section>
   );
 }

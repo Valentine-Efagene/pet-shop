@@ -7,7 +7,7 @@ export default function Mobile({
   ...rest
 }: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div
+    <nav
       className={`${className} flex items-center justify-between md:hidden z-10 px-[1rem] w-full`}
       {...rest}
     >
@@ -17,6 +17,6 @@ export default function Mobile({
       <Button>
         <Menu />
       </Button>
-    </div>
+    </nav>
   );
 }

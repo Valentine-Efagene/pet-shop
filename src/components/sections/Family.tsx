@@ -3,7 +3,7 @@ import SectionDetail from "../common/SectionDetail";
 
 export default function Family() {
   return (
-    <div className="flex flex-col md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
+    <section className="flex flex-col md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
       <SectionDetail>
         <h2 className="font-bold text-24 md:text-36 lg:text-64">
           Find Your Perfect Pet Companion Today
@@ -21,6 +21,6 @@ export default function Family() {
         alt=""
         loading="lazy"
       />
-    </div>
+    </section>
   );
 }

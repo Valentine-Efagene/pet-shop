@@ -4,7 +4,7 @@ import Card from "../discovery/Card";
 
 export default function Discovery() {
   return (
-    <div className="flex flex-col-reverse md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
+    <section className="flex flex-col-reverse md:flex-row gap-sm md:gap-md lg:gap-lg px-sm md:px-md lg:px-lg">
       <img
         className="aspect-480/600 rounded-[40px] md:w-[278px] lg:w-[480px]"
         src={discovery}
@@ -25,6 +25,6 @@ export default function Discovery() {
           content="Need guidance on choosing the right products for your pets? Our knowledgeable staffs are here to help, be it questions about pet nutrition or recommendations fo grooming supplies, we are ready to provide expert advice."
         />
       </SectionDetail>
-    </div>
+    </section>
   );
 }
