@@ -10,7 +10,7 @@ export default function Hero() {
         <Desktop className="absolute top-4" />
         <Mobile className="absolute top-4" />
         <div className="bg-background relative aspect-[412/326] md:aspect-[834/557] lg:aspect-[1440/1024] rounded-tl-[40px] rounded-tr-[40px] flex align-center w-full items-center bg-cover bg-no-repeat bg-[url('/img/hero-sm.png')] md:bg-[url('/img/hero-md.png')] lg:bg-[url('/img/hero.png')]">
-          <div className="w-full relative top-8 md:static flex flex-col gap-sm lg:gap-8 pl-[16px] md:pl-[32px] lg:pl-[64px]">
+          <div className="w-full relative top-8 md:static flex flex-col gap-[0.5rem] lg:gap-8 pl-[16px] md:pl-[32px] lg:pl-[64px]">
             <h1 className="w-[15ch] md:w-[17ch] font-bold text-light leading-normal text-24 md:text-36 lg:text-64">
               Welcome to our Pet Shop!
             </h1>
