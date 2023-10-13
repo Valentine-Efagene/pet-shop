@@ -8,33 +8,33 @@ import X from "../common/icons/X";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col bg-dark p-md">
-      <div className="flex justify-between">
+    <footer className="flex flex-col bg-dark py-md px-sm md:px-md lg:px-lg">
+      <div className="flex justify-between items-center">
         <a href="/">
-          <Logo width={12} height={13} />
+          <Logo className="scale-50 md:scale-100" />
         </a>
-        <div className="flex gap-[0.5rem]">
+        <div className="flex gap-[0.5rem] md:gap-sm lg:gap-md">
           <a href="">
-            <Pinterest />
+            <Pinterest className="md:scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Instagram />
+            <Instagram className="md:scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Facebook />
+            <Facebook className="md:scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <Telegram />
+            <Telegram className="md:scale-[2] lg:scale-[2.5]" />
           </a>
           <a href="">
-            <X />
+            <X className="md:scale-[2] lg:scale-[2.5]" />
           </a>
         </div>
       </div>
-      <hr className="border-t-1 border-light my-[0.5rem]" />
-      <div className="flex gap-sm mx-[auto]">
-        <Copyright />
-        <span className="font-medium text-8 text-light">
+      <hr className="border-t-1 border-light my-[0.5rem] md:my-sm" />
+      <div className="flex gap-sm mx-[auto] items-center">
+        <Copyright className="lg:scale-[1.5]" />
+        <span className="font-medium text-8 md:text-16 text-light">
           2023, All Right Reserved.
         </span>
       </div>
